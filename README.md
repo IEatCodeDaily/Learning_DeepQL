@@ -12,3 +12,6 @@ To create a python virtual environment with the required packages, follow this g
 
 If your Jupyter Notebook still uses system kernel, you will need to change the kernel.
 In VSCode, you can change your kernel by clicking the button saying `(python 3.x.x)` on the top right of the screen. You might need to install ipkernel. Choose the virtual environment and it should work now.
+
+## TensorFlow not running on GPU
+make sure you have CUDA and CUDNN properly setup. Google for the tutorial. I'm lazy
